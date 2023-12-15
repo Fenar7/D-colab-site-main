@@ -482,7 +482,11 @@
     .contact{
         .form{
             .form-container{
-                gap: 1.3em;
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1.3em;
+                }
             }
             .heading{
                 h2{

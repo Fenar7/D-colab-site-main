@@ -804,7 +804,9 @@ footer .row .contact-us img {
   bottom: 0;
   right: 0;
 }
-.contact-container .contact .form .form-container {
+.contact-container .contact .form .form-container form {
+  display: flex;
+  flex-direction: column;
   gap: 1.3em;
 }
 .contact-container .contact .form .heading h2 {
