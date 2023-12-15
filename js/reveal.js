@@ -16,9 +16,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 2000);
 
     const lf = ScrollReveal({
-        duration: 1000, // Animation duration in milliseconds
+        duration: 500, // Animation duration in milliseconds
         origin: 'left', // Origin of the animation
-        distance: '30px', // Distance the element moves in the animation
+        distance: '50px', // Distance the element moves in the animation
         easing: 'ease-in-out', // Easing function
         reset: true // Reset the animation on each reveal
     });
@@ -28,9 +28,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     const rf = ScrollReveal({
-        duration: 1000, // Animation duration in milliseconds
+        duration: 500, // Animation duration in milliseconds
         origin: 'right', // Origin of the animation
-        distance: '30px', // Distance the element moves in the animation
+        distance: '50px', // Distance the element moves in the animation
         easing: 'ease-in-out', // Easing function
         reset: true // Reset the animation on each reveal
     });
@@ -39,9 +39,9 @@ document.addEventListener('DOMContentLoaded', function() {
     rf.reveal('.fade-right');
 
     const tp = ScrollReveal({
-        duration: 1000, // Animation duration in milliseconds
+        duration: 500, // Animation duration in milliseconds
         origin: 'top', // Origin of the animation
-        distance: '30px', // Distance the element moves in the animation
+        distance: '50px', // Distance the element moves in the animation
         easing: 'ease-in-out', // Easing function
         reset: true // Reset the animation on each reveal
     });
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
     tp.reveal('.fade-top');
 
     const bt = ScrollReveal({
-        duration: 1000, // Animation duration in milliseconds
+        duration: 500, // Animation duration in milliseconds
         origin: 'bottom', // Origin of the animation
         distance: '30px', // Distance the element moves in the animation
         easing: 'ease-in-out', // Easing function
