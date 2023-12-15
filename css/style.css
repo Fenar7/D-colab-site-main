@@ -362,7 +362,7 @@ footer .row .contact-us img {
 }
 @media (max-width: 576px) {
   .hero-section-container {
-    height: unset;
+    height: 90vh;
   }
 }
 .hero-section-container .hero-section {
@@ -372,7 +372,7 @@ footer .row .contact-us img {
 }
 @media (max-width: 576px) {
   .hero-section-container .hero-section {
-    height: 100vh;
+    height: 90vh;
   }
 }
 .hero-section-container .hero-section .content-row {
@@ -424,6 +424,8 @@ footer .row .contact-us img {
 @media (max-width: 576px) {
   .hero-section-container .hero-section .content {
     padding-top: 2em;
+    align-items: center;
+    justify-content: center;
   }
 }
 .hero-section-container .hero-section .content .buttons-row {
@@ -497,10 +499,10 @@ footer .row .contact-us img {
 }
 @media (max-width: 576px) {
   .hero-section-container .hero-section .content .text h5 {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   .hero-section-container .hero-section .content .text h1 {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
   }
 }
 

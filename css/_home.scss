@@ -14,7 +14,7 @@
     background-repeat: no-repeat;
     height: 100vh;
     @media(max-width: 576px){
-        height: unset;
+        height: 90vh;
     }
 
    .hero-section{
@@ -22,7 +22,7 @@
     flex-direction: column;
     height: 100vh;
     @media(max-width: 576px){
-        height: 100vh;
+        height: 90vh;
     }
     .content-row{
         height: 100vh;
@@ -68,6 +68,8 @@
         gap: 1.5em;
         @media(max-width:576px){
             padding-top: 2em;
+            align-items: center;
+            justify-content: center;
         }
         .buttons-row{
             gap: 1.5em;
@@ -142,11 +144,11 @@
 
             @media(max-width: 576px){
                 h5{
-                    font-size: 0.8rem;
+                    font-size: 1rem;
                 }
 
                 h1{
-                    font-size: 1.4rem;
+                    font-size: 1.8rem;
                 }
             }
         }
