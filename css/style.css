@@ -388,9 +388,6 @@ footer .row .contact-us img {
     flex-direction: row;
   }
 }
-.hero-section-container .hero-section .content-row .hero-image {
-  align-self: flex-end;
-}
 @media (max-width: 1100px) {
   .hero-section-container .hero-section .content-row .hero-image img {
     width: 400px;
@@ -410,9 +407,7 @@ footer .row .contact-us img {
     position: relative;
   }
   .hero-section-container .hero-section .content-row .hero-image img {
-    position: absolute;
     width: 200px;
-    bottom: 0px;
   }
 }
 .hero-section-container .hero-section .content {
